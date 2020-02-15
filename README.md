@@ -21,7 +21,10 @@ wise.external은 wise 프로젝트가 사용하는 외부 라이브러리를 두
   - 매우 빠르고 편리한 c++ 로깅 라이브러리 
 - catch 
   - c++ unittest 라이브러리
--  
+- glfw 
+  - OpenGL과 Vulkan용 플래폼과 윈도우 지원 라이브러리 
+
+
 
 
 

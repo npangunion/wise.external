@@ -1,10 +1,17 @@
 workspace "sample1"
    configurations { "Debug", "Release" }
 
+
 project "sample1"
    kind "ConsoleApp"
    language "C++"
+   targetdir "bin/%{cfg.buildcfg}"
+
    files { "**.h", "**.cpp" }
+
+   filter {}
+      pchheader "pch.h"
+      pchsource "pch.cpp"
 
    filter { "configurations:Debug" }
       defines { "DEBUG" }
@@ -13,3 +20,4 @@ project "sample1"
    filter { "configurations:Release" }
       defines { "NDEBUG" }
       optimize "On"
+
