@@ -2,6 +2,8 @@
 
 wise.external은 wise 프로젝트가 사용하는 외부 라이브러리를 두는 곳이다. 
 
+로컬 파일은 wise.external/libs 폴더에 두는 걸 기준으로 하나 필요에 따라 환경 변수 설정 등으로 조절하면 된다. 
+
 - boost
   - 모든 C++ 프로젝트들 사용 
 - premake5 
@@ -18,7 +20,8 @@ wise.external은 wise 프로젝트가 사용하는 외부 라이브러리를 두
 - spdlog 
   - 매우 빠르고 편리한 c++ 로깅 라이브러리 
 - catch 
-  - c++ unittest 라이브러리 
+  - c++ unittest 라이브러리
+-  
 
 
 
