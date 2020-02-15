@@ -10,6 +10,14 @@ wise.external은 wise 프로젝트가 사용하는 외부 라이브러리를 두
   - https://marketplace.visualstudio.com/items?itemName=OpenCppCoverage.OpenCppCoveragePlugin
   - 코드 커버리지 툴 
   - VS 2019 지원 
+- libsodium 
+  - 암호, 해시 등 
+  - 크로스 플래폼 
+  - 8K star 
+
+
+
+
 
 
 
