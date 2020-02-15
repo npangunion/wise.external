@@ -15,7 +15,10 @@ wise.external은 wise 프로젝트가 사용하는 외부 라이브러리를 두
   - 크로스 플래폼 
   - 8K star 
 
-
+- spdlog 
+  - 매우 빠르고 편리한 c++ 로깅 라이브러리 
+- catch 
+  - c++ unittest 라이브러리 
 
 
 
