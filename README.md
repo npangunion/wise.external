@@ -6,7 +6,14 @@ wise.external은 wise 프로젝트가 사용하는 외부 라이브러리를 두
   - 모든 C++ 프로젝트들 사용 
 - premake5 
   - 모든 C++ 프로젝트들 필수 사용
-- 
+- opencppcoverage
+  - https://marketplace.visualstudio.com/items?itemName=OpenCppCoverage.OpenCppCoveragePlugin
+  - 코드 커버리지 툴 
+  - VS 2019 지원 
+
+
+
+
 
 
 
