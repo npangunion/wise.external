@@ -23,6 +23,10 @@ wise.external은 wise 프로젝트가 사용하는 외부 라이브러리를 두
   - c++ unittest 라이브러리
 - glfw 
   - OpenGL과 Vulkan용 플래폼과 윈도우 지원 라이브러리 
+- recastnavigation 
+  - navigation mesh 생성과 길찾기 
+  - crowd 이동 
+
 
 
 

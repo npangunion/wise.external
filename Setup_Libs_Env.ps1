@@ -17,3 +17,7 @@ $WISE_EXT_HOME = "E:\wisemountain\wise.external\libs\"
 
 # Set SPDLOG home
 [Environment]::SetEnvironmentVariable("SPDLOG_HOME", $WISE_EXT_HOME + "spdlog-1.5.0", "User")
+
+
+# Set RECAST home
+[Environment]::SetEnvironmentVariable("RECAST_HOME", $WISE_EXT_HOME + "recastnavigation", "User")
