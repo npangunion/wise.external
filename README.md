@@ -1,4 +1,4 @@
-# [wise.external] 외부 도구  
+# wise.external
 
 wise.external은 wise 프로젝트가 사용하는 외부 라이브러리를 두는 곳이다. 
 
@@ -26,6 +26,10 @@ wise.external은 wise 프로젝트가 사용하는 외부 라이브러리를 두
 - recastnavigation 
   - navigation mesh 생성과 길찾기 
   - crowd 이동 
+- urho 3d 
+  - 3d engine in c++
+  - 간결하고, 거의 완전하다. 
+
 
 
 
