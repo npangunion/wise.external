@@ -21,3 +21,10 @@ $WISE_EXT_HOME = "E:\wisemountain\wise.external\libs\"
 
 # Set RECAST home
 [Environment]::SetEnvironmentVariable("RECAST_HOME", $WISE_EXT_HOME + "recastnavigation", "User")
+
+# Set GLEW home
+[Environment]::SetEnvironmentVariable("GLEW_HOME", $WISE_EXT_HOME + "glew-2.1.0", "User")
+
+# Set GLM home
+[Environment]::SetEnvironmentVariable("GLM_HOME", $WISE_EXT_HOME + "glm-0.9.9.7", "User")
+

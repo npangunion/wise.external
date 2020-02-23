@@ -29,6 +29,15 @@ wise.external은 wise 프로젝트가 사용하는 외부 라이브러리를 두
 - urho 3d 
   - 3d engine in c++
   - 간결하고, 거의 완전하다. 
+- glew
+  - opengl wrangler library
+  - opengl의 함수 포인터들 생성
+- glm 
+  - math library 
+  - glsl과 유사하다. 
+
+
+
 
 
 
