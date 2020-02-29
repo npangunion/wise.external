@@ -28,3 +28,8 @@ $WISE_EXT_HOME = "E:\wisemountain\wise.external\libs\"
 # Set GLM home
 [Environment]::SetEnvironmentVariable("GLM_HOME", $WISE_EXT_HOME + "glm-0.9.9.7", "User")
 
+# Set STB Image home
+[Environment]::SetEnvironmentVariable("STB_HOME", $WISE_EXT_HOME + "stb", "User")
+
+# Set Assimp home
+[Environment]::SetEnvironmentVariable("ASSIMP_HOME", $WISE_EXT_HOME + "assimp", "User")
