@@ -1,6 +1,6 @@
 ﻿# change path appropriate for each user
 
-$WISE_EXT_HOME = "E:\wisemountain\wise.external\libs\"
+$WISE_EXT_HOME = "C:\wisemountain\wise.external\libs\"
 
 # Set boost home
 [Environment]::SetEnvironmentVariable("BOOST_HOME", $WISE_EXT_HOME + "boost_1_72_0", "User")
@@ -33,3 +33,6 @@ $WISE_EXT_HOME = "E:\wisemountain\wise.external\libs\"
 
 # Set Assimp home
 [Environment]::SetEnvironmentVariable("ASSIMP_HOME", $WISE_EXT_HOME + "assimp", "User")
+
+# Set bitsery home
+[Environment]::SetEnvironmentVariable("BITSERY_HOME", $WISE_EXT_HOME + "bitsery", "User")
