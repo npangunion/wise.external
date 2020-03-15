@@ -110,3 +110,34 @@ std::aligned_storage<>는 무엇인가?
 - core/botan/arch의 각 폴더에 복사 
 - 헤더와 cpp 나눠서 복사
 - #include <wise.kernel/core/botan/botan.hpp>를 포함하도록 수정
+
+
+# 마지막 정리 
+
+다른 방법들은 여러 가지 어려움이 있고, 그냥 빌드하는 것이 가장 좋다. 
+
+wise.external에 prebuilt를 추가했다. 빌드나 구성이 어려운 경우 미리 구성해 둔다. 
+보탄은 플래폼별로 빌드와 링크가 필요하다. 
+
+prebuilt/botan/x64와 x86 폴더에 windows 빌드를 구성한다. 
+
+정적 빌드로 wise.kernel에서 사용이 편하도록 한다. 
+
+configure.py의 옵션은 다음과 같다. 
+```
+configure.py --enable-static-library --os=windows --cc=msvc --cpu=x64
+configure.py --enable-static-library --os=windows --cc=msvc --cpu=x86
+```
+
+빌드할 때 각각 x64, x86 컴파일러 환경에서 실행해야 한다. 
+
+만들어진 파일들은 손으로 복사했다. 
+
+꽤 오랜 시간 libsodium까지 헤매고 cryptopp로 돌아갈까 생각도 하면서 약 6시간 이상 작업했다. 
+끝까지 보는 게 중요하다. 또 조급하지 않는 게 중요하다. 보탄을 만든 사람은 얼마나 오랜 시간 
+많은 공을 들여서 그 수준에 이르렀겠는가? 
+
+
+
+
+
