@@ -1,6 +1,6 @@
 ﻿# change path appropriate for each user
 
-$WISE_EXT_HOME = "E:\wisemountain\wise.external\libs\"
+$WISE_EXT_HOME = "C:\wisemountain\wise.external\libs\"
 
 # Set boost home
 [Environment]::SetEnvironmentVariable("BOOST_HOME", $WISE_EXT_HOME + "boost_1_72_0", "User")
