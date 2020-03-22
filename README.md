@@ -35,6 +35,11 @@ wise.external은 wise 프로젝트가 사용하는 외부 라이브러리를 두
 - glm 
   - math library 
   - glsl과 유사하다. 
+- cgal
+  - computational geometry algorithm library 
+  - CG는 이것과 computer graphics 두 가지이다. 
+
+
 
 
 
