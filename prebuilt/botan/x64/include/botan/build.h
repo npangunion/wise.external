@@ -3,10 +3,10 @@
 
 /*
 * This file was automatically generated running
-* 'configure.py --cc=msvc --os=windows --cpu=x64 --enable-static-library'
+* 'configure.py --cpu=x64 --os=windows --cc=msvc --msvc-runtime=MT --enable-static-library'
 *
 * Target
-*  - Compiler: cl  /EHs /GR /D_ENABLE_EXTENDED_ALIGNED_STORAGE /MD /bigobj /O2 /Oi
+*  - Compiler: cl  /EHs /GR /D_ENABLE_EXTENDED_ALIGNED_STORAGE /MT /bigobj /O2 /Oi
 *  - Arch: x86_64
 *  - OS: windows
 */
@@ -18,7 +18,7 @@
 
 #define BOTAN_VERSION_RELEASE_TYPE "unreleased"
 
-#define BOTAN_VERSION_VC_REVISION "git:bd392289b4f0c404fc0e1210fdd302e7de37428c"
+#define BOTAN_VERSION_VC_REVISION "git:48c4c4c6ef35529ece4d64ecc52bd9eede9ca8aa"
 
 #define BOTAN_DISTRIBUTION_INFO "unspecified"
 
